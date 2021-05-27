@@ -1,0 +1,31 @@
+Package: ggmm218
+Type: Package
+Title: Color Palettes and Themes for 'ggplot2'
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Michael",
+           family = "Mahoney",
+           role = c("aut", "cre"),
+           email = "mike.mahoney.218@gmail.com",
+           comment = c(ORCID = "0000-0003-2402-304X")))
+Description: Provides a set of color palettes and other generally useful 
+    extensions for 'ggplot2', using a new set of custom functions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ggplot2,
+    grDevices
+Suggests:
+    knitr,
+    pkgdown,
+    covr,
+    rmarkdown,
+    lintr,
+    testthat
+Depends: 
+    R (>= 2.10)
+Config/testthat/parallel: true
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+RoxygenNote: 7.1.1
